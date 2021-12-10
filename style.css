@@ -111,9 +111,3 @@ a:active {
 	padding-left: var(--wp--custom--spacing--outer);
 	padding-right: var(--wp--custom--spacing--outer);
 }
-
-/* Fixes an edge case where there are two alignfull nested containers, both with layout enabled. */
-.wp-site-blocks .alignfull[class^='wp-container'] .alignfull[class^='wp-container'] {
-	margin-left: unset !important;
-	margin-right: unset !important;
-}
